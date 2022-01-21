@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Educational_Institution.Domain", "Educational_Institution.Domain", "{6DF3AF7D-8D75-4AA3-B14D-9DF48EC5E45C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Educational_Institution.Core", "Educational_Institution.Core", "{69653161-805D-4F93-BA21-CB5FC0984E95}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Educational_Institution.Presentation", "Educational_Institution.Presentation", "{ACDADB8A-D014-4D03-9160-C950EB7BCBF5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Educational_Institution.Infra.Data", "Educational_Institution.Infra.Data", "{2171E9C7-0221-456D-9E39-31287E9BB002}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Educational_Institution.Infar.Ioc", "Educational_Institution.Infar.Ioc", "{32F9A128-B507-4F47-A18C-3556C97957C6}"
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BB3BE6CF-1261-45C8-9C79-0071DB706A95}
+	EndGlobalSection
+EndGlobal
