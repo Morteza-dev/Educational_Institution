@@ -13,7 +13,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infra.Data", "Infra.Data", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infar.Ioc", "Infar.Ioc", "{32F9A128-B507-4F47-A18C-3556C97957C6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Educational_Institution.Domain", "Educational_Institution.Domain\Educational_Institution.Domain.csproj", "{D980AA66-C127-44F0-9A7F-3FA9ECEF054F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Educational_Institution.Domain", "Educational_Institution.Domain\Educational_Institution.Domain.csproj", "{D980AA66-C127-44F0-9A7F-3FA9ECEF054F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Educational_Institution.Data", "Educational_Institution.Data\Educational_Institution.Data.csproj", "{0F74A144-469A-4D6D-BF15-0382794EC3B6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,12 +27,17 @@ Global
 		{D980AA66-C127-44F0-9A7F-3FA9ECEF054F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D980AA66-C127-44F0-9A7F-3FA9ECEF054F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D980AA66-C127-44F0-9A7F-3FA9ECEF054F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F74A144-469A-4D6D-BF15-0382794EC3B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F74A144-469A-4D6D-BF15-0382794EC3B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F74A144-469A-4D6D-BF15-0382794EC3B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F74A144-469A-4D6D-BF15-0382794EC3B6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{D980AA66-C127-44F0-9A7F-3FA9ECEF054F} = {6DF3AF7D-8D75-4AA3-B14D-9DF48EC5E45C}
+		{0F74A144-469A-4D6D-BF15-0382794EC3B6} = {2171E9C7-0221-456D-9E39-31287E9BB002}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {BB3BE6CF-1261-45C8-9C79-0071DB706A95}
