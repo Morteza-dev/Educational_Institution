@@ -10,11 +10,11 @@ namespace Educational_Institution.Domain.Contract.Repositories
 {
     public interface IBaseRepository<TEntity>
     {
-        void Add(TEntity entity);
-        void Update(TEntity entity);
-        void Delete(TEntity entity);
-        IEnumerable<TEntity> Get(Expression<Func<TEntity,bool>> expression);
-        IEnumerable<TEntity> GetAll();
+        Task Add(TEntity entity);
+        Task Update(TEntity entity);
+        Task Delete(TEntity entity);
+        Task<IEnumerable<TEntity>> Get(Expression<Func<TEntity,bool>> expression);
+        Task<IEnumerable<TEntity>> GetAll();
 
     }
 }

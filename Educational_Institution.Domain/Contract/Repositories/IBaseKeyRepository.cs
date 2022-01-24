@@ -8,9 +8,8 @@ namespace Educational_Institution.Domain.Contract.Repositories
 {
     public interface IBaseKeyRepository<TEntity,TKey>
     {
-        TEntity Get(TKey key);
-        TEntity Find(TKey key);
-        void Delete(TKey key);
+        Task<TEntity> Find(TKey key);
+        Task Delete(TKey key);
 
     }
 }
